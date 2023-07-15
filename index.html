@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SMRUTI RANJAN DASH - PORTFOLIO</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.left{
+			font-size: 120%;
+		}
+		body{
+			background-color: rgb(0, 0, 33);
+			color: white;
+			font-family: 'Poppins', sans-serif;
+		}
+		nav{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 80px;
+			background-color: rgb(18, 18, 62);
+		}
+		nav ul{
+			display: flex;
+			justify-content: center;
+		}
+		nav ul li{
+			list-style: none;
+			margin: 0 23px 0 0;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: white;
+		}
+		nav ul li a:hover{
+			color: rgb(153, 153, 226);
+			font-size: 1.02rem;
+		}
+		main hr{
+			border: 0;
+			background: #9c97f1;
+			height: 1px;
+			margin: 40px 90px;
+		}
+		.first{
+			display: flex;
+			justify-content: space-around;
+			margin: 90px 0;
+			align-items: center;
+		}
+		.first > div{
+			width: 30%;
+		}
+		.firstleft{
+			font-size: 2rem;
+		}
+		.btn{
+			display: flex;
+			margin-top: 10px;
+			padding: 10px;
+			background: #1e2167;
+			color: white;
+			border: 2px solid white;
+			border-radius: 6px;
+			font-size: 20px;
+			cursor: pointer;
+			align-items: center;
+		}
+
+		.firstright img{
+			width: 100%;
+		}
+		.purple{
+			color: rgb(170, 107, 228);
+		}
+		#element{
+			color: rgb(170, 107, 228);
+		}
+		.second{
+			max-width: 80vw;
+			margin: auto;
+			height: 80vh;
+		}
+		.second h1{
+			font-size: 1.9rem;
+		}
+		.text-gray{
+			color: gray;
+		}
+		.second .box{
+			background: white;
+			width: 80vw;
+			height: 2px;
+			margin: 56px 0;
+			display: flex;
+		}
+		.second .vertical{
+			height: 86px;
+			width: 1px;
+			background-color: white;
+			margin: 0 180px;
+		}
+		.image-top{
+			width: 23px;
+			position: relative;
+			top: -22px;
+			left: -9px;
+		}
+		.vertical-title{
+			position: relative;
+			top: 60px;
+			width: 150px;
+		}
+		.vertical-desc{
+			position: relative;
+			top: 70px;
+			color: gray;
+			width: 165px;
+			font-size: 13px;
+		}
+		footer{
+			background-color: #0e0e1a;
+		}
+		.footer{
+			display: flex;
+			padding: 23px 122px;
+		}
+		.footer > div{
+			width: 250px;
+		}
+		footer .footer-rights{
+			text-align: center;
+			color: gray;
+			padding: 12px 0;
+		}
+	</style>
+</head>
+<body>
+
+	<!-------------header-------------->
+	<header>
+		<nav>
+			<div class="left">SMRUTI RANJAN DASH PORTFOLIO</div>
+			<div class="right">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/">About</a></li>
+					<li><a href="/">Education</a></li>
+					<li><a href="/">Projects</a></li>
+					<li><a href="/">Contact Me</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<!----------main------------>
+	<main>
+		<!---------- FIRST SECTION ------------------>
+		<section class="first">
+			<div class="firstleft">
+				Hi, I am <span class="purple">Smruti Ranjan Dash</span> & I am a Passionate
+				<span id="element"></span>
+				<div class="buttons">
+					<button class="btn">Download Resume</button>
+					<button class="btn">Visit GitHub</button>
+					<button class="btn">Visit Linkdin</button>
+				</div>
+			</div>
+			<div class="firstright">
+				<img src="1.png">
+			</div>
+		</section>
+		<hr>
+		<!------------- SECOND SECTION ---------------->
+		<section class="second">
+			<span class="text-gray">What I study</span>
+			<h1>Educations</h1>
+			<div class="box">
+				<div class="vertical">
+					<img class="image-top" src="10th.jpeg">
+					<div class="vertical-title">
+						10th (2017 - 2018)
+					</div>
+					<div class="vertical-desc">
+						Saraswati Shishu Vidya Mandir , Dharmavihar
+					</div>
+				</div>
+				<div class="vertical">
+					<img class="image-top" src="diploma.png">
+					<div class="vertical-title">Diploma (2018 - 2021)</div>
+					<div class="vertical-desc">
+						<div>
+							<b>Electrical Engineering</b> Government Polytechnic , Bhubaneswar
+						</div>
+					</div>
+				</div>
+				<div class="vertical">
+					<img class="image-top" src="grad.png">
+					<div class="vertical-title">B.Tech (2022 - 2025)</div>
+					<div class="vertical-desc">
+						<div>
+							<b>Computer Science & Information Technology</b>
+						Gandhi Institute of Technology Advancement (GITA), Bhubaneswar</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!----------------- FOOTER ------------------>
+	<footer>
+		<div class="footer">
+			<div class="footer-one">
+				SMRUTI RANJAN DASH's PORTFOLIO
+			</div>
+			<div class="footer-two">
+				
+			</div>
+			<div class="footer-three">
+				
+			</div>
+			<div class="footer-four">
+				
+			</div>
+		</div>
+		<div class="footer-rights">
+			copyright &#169; smrutiranjandash.in | All Rights Reserved
+		</div>
+	</footer>
+
+	<!------------- JAVASCPIPT --------------->
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Ethical Hacker.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
